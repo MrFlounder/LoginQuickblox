@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quickblox/2.0.4/quickblox.min.js"></script>
+    <script>
+        $(function(){
+            $("#includedContent").load("http://localhost:63342/version2/views/template/header.html");
+            console.log("include function")
+        });
+    </script>
+    <script type="text/javascript" src="http://localhost:63342/version2/controller/logincontrol.js"></script>
+</head>
+<body>
+<div id="container">
+<div id="includedContent"></div>
+<div>
+    <input type="text" id="loginname" placeholder="Enter login">
+    <input type="password" id="loginpwd" placeholder="Enter password">
+    <button type="button" id="sign_in">Login</button>
+</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
